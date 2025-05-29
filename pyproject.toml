@@ -12,6 +12,7 @@ dependencies = [
     "litellm (>=1.71.1,<2.0.0)",
     "python-dotenv (>=1.1.0,<2.0.0)"
 ]
+packages = [{include = "first_adk", from = "src"}]
 
 [tool.poetry]
 packages = [{include = "first_adk", from = "src"}]
