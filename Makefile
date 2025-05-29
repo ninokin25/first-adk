@@ -21,6 +21,10 @@ help: ## Show this help message
 clean: ## Cleanup
 	@rm -rf .pre-commit
 
+install: ## Set up environment
+	@poetry config virtualenvs.in-project true
+	@poetry install
+
 run: ## Run my agent
 	@poetry run python src/first_adk/main.py
     
