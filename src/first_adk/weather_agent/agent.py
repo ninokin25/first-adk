@@ -8,7 +8,7 @@ MODEL_GEMINI_2_0_FLASH = "gemini-2.0-flash"
 MODEL_CLAUDE_SONNET = "anthropic/claude-3-sonnet-20240229"
 MODEL_GEMINI_2_5_PRO = "gemini-2.5-pro-exp-03-25"
 
-AGENT_MODEL = MODEL_GEMINI_2_5_PRO # とりあえずGemini 2.5 Proで
+AGENT_MODEL = MODEL_GEMINI_2_0_FLASH
 
 weather_agent = Agent(
     name="weather_agent_v1",
